@@ -24,36 +24,6 @@ public class reg extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reg);
-        checkbox = (CheckBox) findViewById(R.id.checkBox4);
-        edtPassword = (EditText) findViewById(R.id.editTextTextPassword3);
-        checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if (!isChecked) {
-                    // show password
-                    edtPassword.setTransformationMethod(PasswordTransformationMethod.getInstance());
-                } else {
-                    // hide password
-
-                    edtPassword.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
-                }
-            }
-        });
-        checkbox1 = (CheckBox) findViewById(R.id.checkBox3);
-        edtPassword1 = (EditText) findViewById(R.id.editTextTextPassword5);
-        checkbox1.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton compoundButton, boolean isChecked) {
-                if (!isChecked) {
-                    // show password
-                    edtPassword1.setTransformationMethod(PasswordTransformationMethod.getInstance());
-                } else {
-                    // hide password
-
-                    edtPassword1.setTransformationMethod(HideReturnsTransformationMethod.getInstance());
-                }
-            }
-        });
     }
 
     public void Con(View v) {

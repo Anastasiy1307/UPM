@@ -14,12 +14,6 @@ import android.widget.EditText;
 
 public class reg extends AppCompatActivity {
 
-    private AppCompatAutoCompleteTextView autoTextView;
-    private AppCompatAutoCompleteTextView autoTextViewCustom;
-    private android.widget.EditText edtPassword;
-    private CheckBox checkbox;
-    private android.widget.EditText edtPassword1;
-    private CheckBox checkbox1;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

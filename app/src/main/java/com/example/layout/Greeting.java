@@ -13,8 +13,12 @@ public class Greeting extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_greeting);
     }
-    public void Log(View v) {
+    public void Reg(View v) {
         Intent intent = new Intent(Greeting.this, reg.class);
+        startActivity(intent);
+    }
+    public void Log(View v) {
+        Intent intent = new Intent(Greeting.this, LogIn.class);
         startActivity(intent);
     }
 }

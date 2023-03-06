@@ -26,11 +26,7 @@ public class reg extends AppCompatActivity {
         setContentView(R.layout.activity_reg);
     }
 
-    public void Con(View v) {
-        Intent intent = new Intent(this, Congr.class);
-        startActivity(intent);
 
-    }
 
 
     public void LogIn(View v) {

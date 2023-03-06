@@ -42,7 +42,7 @@
         android:layout_width="335dp"
         android:layout_height="48dp"
         android:layout_marginTop="44dp"
-        android:backgroundTint=" #BEC2C2"
+        android:backgroundTint="#BEC2C2"
         android:fontFamily="@font/alegreya"
         android:hint="Email"
         android:textAlignment="viewStart"
@@ -60,7 +60,7 @@
         android:layout_width="335dp"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
-        android:backgroundTint=" #BEC2C2"
+        android:backgroundTint="#BEC2C2"
         android:fontFamily="@font/alegreya"
         android:hint="Password"
         android:textAlignment="viewStart"
@@ -111,6 +111,7 @@
         android:textColorLink="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:onClick="Registr"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
@@ -129,6 +130,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/gallery" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="637dp"
+        android:layout_height="933dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/background_f" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

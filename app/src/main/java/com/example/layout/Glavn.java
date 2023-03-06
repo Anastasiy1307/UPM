@@ -1,13 +1,14 @@
 package com.example.layout;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import android.os.Bundle;
 
-public class Congr extends AppCompatActivity {
+public class Glavn extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_congr);
+        setContentView(R.layout.activity_glavn);
     }
 }

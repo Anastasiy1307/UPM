@@ -83,6 +83,7 @@
         android:layout_marginEnd="34dp"
         android:backgroundTint="#867C9A92"
         android:fontFamily="@font/alegreya"
+        android:onClick="LogIn"
         android:text="Sign in"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"

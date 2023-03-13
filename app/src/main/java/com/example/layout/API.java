@@ -4,7 +4,7 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.POST;
 
-public interface Retrofit {
+public interface API {
     @POST("user/login")
-    Call<User> createU(@Body ModelProf modelProf);
+    Call<UserM> createU(@Body ModelProf modelProf);
 }

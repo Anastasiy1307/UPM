@@ -1,10 +1,10 @@
 package com.example.layout;
 
-public class ModelProf {
+public class ModelUser {
     private String email;
     private String password;
 
-    public ModelProf(String email, String password){
+    public ModelUser(String email, String password){
         this.email = email;
         this.password = password;
     }

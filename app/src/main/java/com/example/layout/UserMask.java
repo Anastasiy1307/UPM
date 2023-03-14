@@ -2,13 +2,13 @@ package com.example.layout;
 
 import java.io.Serializable;
 
-public class UserM implements Serializable {
+public class UserMask implements Serializable {
     private String id;
     private String email;
     private String nickName;
     private String avatar;
     private String token;
-public UserM(String id, String email, String nickName, String avatar, String token){
+public UserMask(String id, String email, String nickName, String avatar, String token){
         this.id = id;
         this.email = email;
         this.nickName = nickName;

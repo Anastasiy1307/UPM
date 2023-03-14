@@ -6,5 +6,5 @@ import retrofit2.http.POST;
 
 public interface API {
     @POST("user/login")
-    Call<UserM> createU(@Body ModelProf modelProf);
+    Call<UserMask> createUser(@Body ModelUser modelUser);
 }

@@ -32,6 +32,7 @@
         android:textColor="@color/white"
         android:textSize="24sp"
         android:textStyle="bold"
+        android:onClick="Registr"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.179"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,7 +57,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <EditText
-        android:id="@+id/email"
+        android:id="@+id/password"
         android:layout_width="335dp"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
@@ -83,7 +84,7 @@
         android:layout_marginEnd="34dp"
         android:backgroundTint="#867C9A92"
         android:fontFamily="@font/alegreya"
-        android:onClick="LogIn"
+        android:onClick="Profile"
         android:text="Sign in"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
@@ -94,7 +95,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
+        app:layout_constraintTop_toBottomOf="@+id/password"
         app:rippleColor="#FFFFFF" />
 
     <Button
@@ -112,7 +113,7 @@
         android:textColorLink="#FFFFFF"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:onClick="Registr"
+        android:onClick="Profile"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.507"

@@ -211,9 +211,14 @@ public class Glavn extends AppCompatActivity {
         startActivity(intent);
 
     }
+
     public void Menu(View v) {
         Intent intent = new Intent(Glavn.this, Menu.class);
         startActivity(intent);
+    }
 
+    public void profile (View v) {
+        Intent intent = new Intent( this, Profile.class);
+        startActivity(intent);
     }
 }

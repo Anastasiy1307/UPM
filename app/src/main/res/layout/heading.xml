@@ -3,17 +3,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <RelativeLayout
+        android:id="@+id/Background_heading"
         android:layout_width="match_parent"
         android:layout_height="155dp"
-        android:id="@+id/Background_heading"
         android:layout_marginStart="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/fon_feeling"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <ImageView
             android:id="@+id/title_splash_screen"
             android:layout_width="111dp"
@@ -24,7 +28,7 @@
             android:layout_marginTop="0dp"
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="0dp"
-            android:src="@drawable/screensaver"/>
+            android:src="@drawable/screensaver" />
 
         <TextView
             android:id="@+id/name"
